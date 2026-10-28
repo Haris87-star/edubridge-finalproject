@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Tooling
+.pytest_cache/
+.ipynb_checkpoints/
+.ruff_cache/
+
+# Generated artefacts (recreated by `python main.py train`)
+data/sms_spam.csv
+models/*.joblib
+models/*.json
+*.joblib
+*_predictions.csv
+
+# Runtime output
+feedback/
+*.log
+.uvicorn.pid

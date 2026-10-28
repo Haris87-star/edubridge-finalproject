@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Dashboard (Streamlit client of the API)
+streamlit>=1.30
+httpx>=0.27
